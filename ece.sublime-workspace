@@ -1,0 +1,203 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gui",
+				"guiNaudin"
+			],
+			[
+				"print",
+				"println"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "ece.sublime-workspace",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/guillaumenaudin/Documents/Javascript/app.js",
+		"/Users/guillaumenaudin/Documents/Javascript/config.json",
+		"/Users/guillaumenaudin/Documents/Javascript/server.js",
+		"/Users/guillaumenaudin/Documents/oozie/employment.sql",
+		"/Users/guillaumenaudin/Documents/oozie/hive-default.xml",
+		"/Users/guillaumenaudin/Documents/oozie/job.properties",
+		"/Users/guillaumenaudin/Documents/oozie/to-orc.hql",
+		"/Users/guillaumenaudin/Documents/oozie/workflow.xml",
+		"/Users/guillaumenaudin/Documents/oozie/oozie.sh",
+		"/Users/guillaumenaudin/Documents/Javascript/server",
+		"/Users/guillaumenaudin/oozie/workflow.xml",
+		"/Users/guillaumenaudin/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/guillaumenaudin/Library/Application Support/Sublime Text 2/Packages/Color Scheme - Default/Sunburst.tmTheme",
+		"/Users/guillaumenaudin/Downloads/Netbeans-Themes-master/ReadMe.md",
+		"/Users/guillaumenaudin/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/guillaumenaudin/Library/Application Support/Sublime Text 2/Packages/User/Java.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"combi",
+			"view.settings().get('font_face')",
+			"font",
+			"new"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "ece.sublime-workspace",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 185.0,
+	"status_bar_visible": true
+}
