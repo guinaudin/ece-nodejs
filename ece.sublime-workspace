@@ -15,31 +15,27 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "ece.sublime-workspace",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 347.0,
 		"selected_items":
 		[
 			[
-				"brow",
-				"Preferences: Browse Packages"
-			],
-			[
 				"package",
 				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
 			]
 		],
-		"width": 449.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -56,6 +52,20 @@
 	},
 	"file_history":
 	[
+		"/Users/guillaumenaudin/Documents/Javascript/metrics/README.md",
+		"/Users/guillaumenaudin/Documents/Javascript/metrics/package.json",
+		"/Users/guillaumenaudin/Documents/Javascript/metrics/src/test.coffee",
+		"/Users/guillaumenaudin/Documents/Javascript/metrics/makefile",
+		"/Users/guillaumenaudin/Documents/Javascript/metrics/lib/metrics.js",
+		"/Users/guillaumenaudin/Documents/Javascript/metrics/test/metrics.js",
+		"/Users/guillaumenaudin/Documents/NetBeans Project/LockNRoll/pom.xml",
+		"/Users/guillaumenaudin/Documents/NetBeans Project/LockNRoll/nbactions.xml",
+		"/Users/guillaumenaudin/Documents/Javascript/Metrics/ece.sublime-workspace",
+		"/Users/guillaumenaudin/Documents/NetBeans Project/LockNRoll/src/main/java/model/CombinationTest.java",
+		"/Users/guillaumenaudin/Documents/Javascript/Metrics/package.json",
+		"/Users/guillaumenaudin/Documents/Javascript/metrics/metrics.js",
+		"/Users/guillaumenaudin/Documents/Javascript/metrics/.gitignore",
+		"/Users/guillaumenaudin/Documents/Javascript/Metrics/ece.sublime-project",
 		"/Users/guillaumenaudin/Documents/Javascript/app.js",
 		"/Users/guillaumenaudin/Documents/Javascript/config.json",
 		"/Users/guillaumenaudin/Documents/Javascript/server.js",
@@ -89,6 +99,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"metr",
 			"combi",
 			"view.settings().get('font_face')",
 			"font",
@@ -110,35 +121,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "ece.sublime-workspace",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
