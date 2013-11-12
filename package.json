@@ -9,7 +9,7 @@
 		"supervisor": "*",
 		"leveldown": "*",
 		"levelup": "*"
-		},
+	},
 	"devDependencies": {
 		"mocha": "*",
 		"should": "*",
