@@ -8,7 +8,7 @@ describe 'HTTP REST', () ->
   it 'save and then get metric from server', (next) ->
 
     request.post {
-      uri:'http://localhost:6500/metric/metric_3.json', 
+      uri:'http://localhost:1234/metric/metric_3.json', 
       headers:{'content-type':'application/json'}, 
       body: JSON.stringify [
         timestamp: (new Date '2013-11-12 13:00 UTC').getTime()
@@ -28,7 +28,7 @@ describe 'HTTP REST', () ->
       m1.timestamp.should.eql (new Date '2013-11-12 13:00 UTC').getTime()
       m2.timestamp.should.eql m1.timestamp + 10*60*1000
 
-      request 'http://localhost:6500/metric/metric_3.json', (err, response, body) ->
+      request 'http://localhost:1234/metric/metric_3.json', (err, response, body) ->
         return next err if err or response.statusCode isnt 200
 
         metrics = JSON.parse(body).values
