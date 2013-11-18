@@ -29,7 +29,6 @@ module.exports =
     rs.on 'error', callback
     rs.on 'close', ->
       callback null, metrics
-
   ###
   `save(id, metrics, callback)`
   ----------------------------
@@ -49,3 +48,24 @@ module.exports =
       {timestamp, value} = metric
       ws.write key: "metric:#{id}:#{timestamp}", value: value
     ws.end()
+
+  ###
+  `remove(id, callback)`
+  ----------------------------
+
+  Parameters
+    `id`              Metric id as intefer
+    `callback`        Contains an error as first argument           
+                      if any 
+  ###
+  remove: (id, callback) ->
+    ws = db.createWriteStream type: 'del'
+    ws.on 'error', callback
+    ws.on 'close', callback
+    ks = db.createKeyStream()
+    ks.on 'close', ->
+            ws.end()
+    ks.on 'data', (data) ->
+      [_, keyId, timestamp] = data.split ':'
+      if keyId == id
+        ws.write key: "#{data}"
